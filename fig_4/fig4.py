@@ -1,5 +1,5 @@
 ########################################################################
-#This script generates Figure 4 in the following manuscript:
+#This script computes data for, and generates, Figure 4 in the following manuscript:
 
 #Bower, S.J., Shobe, C.M., Maxwell, A.E., and Campforts, B. (2023) The 
 #uncertain future of mountaintop-removal-mined landscapes 2: Modeling the influence of
