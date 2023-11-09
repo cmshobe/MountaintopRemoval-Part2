@@ -12,14 +12,16 @@ Station (charles.shobe@usda.gov)
 - Python and R scripts to extract and conduct statistical tests on pre- 
 and post-mining watershed topography (Figure 2)
 
-- Python script to generate erodibility estimates (Figure 4)
+- Gully mapping dataset and Python script to generate erodibility 
+estimates (Figure 4)
 
-- Python script to generate erodibility time series (Figure 5)
+- Python script to generate erodibility time series for model simulations 
+and plot erodibility time series (Figure 5)
 
-- Python script to generate precipitation time series (Figure 6)
+- Python script to plot precipitation time series (Figure 6)
 
-- Python code to run forward landscape evolution model simulations 
-(output is used in Figures 7-13)
+- Python code to run forward landscape evolution model simulations as well 
+as all required input and output files (output is used in Figures 7-13)
 
 - Python script to calculate total sediment export (Figure 7)
 
@@ -29,4 +31,5 @@ and post-mining watershed topography (Figure 2)
 
 - Python script to calculate distributions of erosion rates (Figure 10)
 
-- Python script to generate selected cross-section topography (Figure 13)
+- Cross-section data and Python script to generate selected cross-section 
+topography (Figure 13)
