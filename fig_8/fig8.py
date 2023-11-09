@@ -25,39 +25,39 @@ cm = matplotlib.colormaps['plasma']
 cellsize = 100 #m^3
 
 #ben creek
-bc0 = np.genfromtxt('../ben_creek/outputs/scenario_0_sedflux.txt') * cellsize
-bc5 = np.genfromtxt('../ben_creek/outputs/scenario_5_sedflux.txt') * cellsize
-bc10 = np.genfromtxt('../ben_creek/outputs/scenario_10_sedflux.txt') * cellsize
-bc_control_mined = np.genfromtxt('../ben_creek/outputs/control_mined_sedflux.txt') * cellsize
-bc_control_unmined = np.genfromtxt('../ben_creek/outputs/control_unmined_sedflux.txt') * cellsize
+bc0 = np.genfromtxt('../model_simulations/ben_creek/outputs/scenario_0_sedflux.txt') * cellsize
+bc5 = np.genfromtxt('../model_simulations/ben_creek/outputs/scenario_5_sedflux.txt') * cellsize
+bc10 = np.genfromtxt('../model_simulations/ben_creek/outputs/scenario_10_sedflux.txt') * cellsize
+bc_control_mined = np.genfromtxt('../model_simulations/ben_creek/outputs/control_mined_sedflux.txt') * cellsize
+bc_control_unmined = np.genfromtxt('../model_simulations/ben_creek/outputs/control_unmined_sedflux.txt') * cellsize
 
 #mud river
-mr0 = np.genfromtxt('../mud_river/outputs/scenario_0_sedflux.txt') * cellsize
-mr5 = np.genfromtxt('../mud_river/outputs/scenario_5_sedflux.txt') * cellsize
-mr10 = np.genfromtxt('../mud_river/outputs/scenario_10_sedflux.txt') * cellsize
-mr_control_mined = np.genfromtxt('../mud_river/outputs/control_mined_sedflux.txt') * cellsize
-mr_control_unmined = np.genfromtxt('../mud_river/outputs/control_unmined_sedflux.txt') * cellsize
+mr0 = np.genfromtxt('../model_simulations/mud_river/outputs/scenario_0_sedflux.txt') * cellsize
+mr5 = np.genfromtxt('../model_simulations/mud_river/outputs/scenario_5_sedflux.txt') * cellsize
+mr10 = np.genfromtxt('../model_simulations/mud_river/outputs/scenario_10_sedflux.txt') * cellsize
+mr_control_mined = np.genfromtxt('../model_simulations/mud_river/outputs/control_mined_sedflux.txt') * cellsize
+mr_control_unmined = np.genfromtxt('../model_simulations/mud_river/outputs/control_unmined_sedflux.txt') * cellsize
 
 #laurel creek
-lc0 = np.genfromtxt('../laurel_creek/outputs/scenario_0_sedflux.txt') * cellsize
-lc5 = np.genfromtxt('../laurel_creek/outputs/scenario_5_sedflux.txt') * cellsize
-lc10 = np.genfromtxt('../laurel_creek/outputs/scenario_10_sedflux.txt') * cellsize
-lc_control_mined = np.genfromtxt('../laurel_creek/outputs/control_mined_sedflux.txt') * cellsize
-lc_control_unmined = np.genfromtxt('../laurel_creek/outputs/control_unmined_sedflux.txt') * cellsize
+lc0 = np.genfromtxt('../model_simulations/laurel_creek/outputs/scenario_0_sedflux.txt') * cellsize
+lc5 = np.genfromtxt('../model_simulations/laurel_creek/outputs/scenario_5_sedflux.txt') * cellsize
+lc10 = np.genfromtxt('../model_simulations/laurel_creek/outputs/scenario_10_sedflux.txt') * cellsize
+lc_control_mined = np.genfromtxt('../model_simulations/laurel_creek/outputs/control_mined_sedflux.txt') * cellsize
+lc_control_unmined = np.genfromtxt('../model_simulations/laurel_creek/outputs/control_unmined_sedflux.txt') * cellsize
 
 #spruce fork
-sf0 = np.genfromtxt('../spruce_fork/outputs/scenario_0_sedflux.txt') * cellsize
-sf5 = np.genfromtxt('../spruce_fork/outputs/scenario_5_sedflux.txt') * cellsize
-sf10 = np.genfromtxt('../spruce_fork/outputs/scenario_10_sedflux.txt') * cellsize
-sf_control_mined = np.genfromtxt('../spruce_fork/outputs/control_mined_sedflux.txt') * cellsize
-sf_control_unmined = np.genfromtxt('../spruce_fork/outputs/control_unmined_sedflux.txt') * cellsize
+sf0 = np.genfromtxt('../model_simulations/spruce_fork/outputs/scenario_0_sedflux.txt') * cellsize
+sf5 = np.genfromtxt('../model_simulations/spruce_fork/outputs/scenario_5_sedflux.txt') * cellsize
+sf10 = np.genfromtxt('../model_simulations/spruce_fork/outputs/scenario_10_sedflux.txt') * cellsize
+sf_control_mined = np.genfromtxt('../model_simulations/spruce_fork/outputs/control_mined_sedflux.txt') * cellsize
+sf_control_unmined = np.genfromtxt('../model_simulations/spruce_fork/outputs/control_unmined_sedflux.txt') * cellsize
 
 #white oak creek
-wo0 = np.genfromtxt('../white_oak/outputs/scenario_0_sedflux.txt') * cellsize
-wo5 = np.genfromtxt('../white_oak/outputs/scenario_5_sedflux.txt') * cellsize
-wo10 = np.genfromtxt('../white_oak/outputs/scenario_10_sedflux.txt') * cellsize
-wo_control_mined = np.genfromtxt('../white_oak/outputs/control_mined_sedflux.txt') * cellsize
-wo_control_unmined = np.genfromtxt('../white_oak/outputs/control_unmined_sedflux.txt') * cellsize
+wo0 = np.genfromtxt('../model_simulations/white_oak/outputs/scenario_0_sedflux.txt') * cellsize
+wo5 = np.genfromtxt('../model_simulations/white_oak/outputs/scenario_5_sedflux.txt') * cellsize
+wo10 = np.genfromtxt('../model_simulations/white_oak/outputs/scenario_10_sedflux.txt') * cellsize
+wo_control_mined = np.genfromtxt('../model_simulations/white_oak/outputs/control_mined_sedflux.txt') * cellsize
+wo_control_unmined = np.genfromtxt('../model_simulations/white_oak/outputs/control_unmined_sedflux.txt') * cellsize
 
 #convert from Qs (vol/time) to total sed export (volume) by multiplying each entry by dt:
 #0-200 get multiplied by 0.5, 200 onward get multiplied by 1
