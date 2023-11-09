@@ -3,7 +3,9 @@ Software and data for Bower et al. (resubmitted to *Geomorphology*): The
 uncertain future of mountaintop-removal-mined landscapes 2: Modeling the influence of topography and vegetation.
 
 Archived by Charlie Shobe, U.S. Forest Service Rocky Mountain Research 
-Station (charles.shobe@usda.gov)
+Station (charles.shobe@usda.gov).
+
+[![DOI](https://zenodo.org/badge/716265138.svg)](https://zenodo.org/doi/10.5281/zenodo.10087618)
 
 ---
 
